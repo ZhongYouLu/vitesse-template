@@ -1,15 +1,27 @@
 {
-  "cSpell.words": ["Vitesse"],
+  "files.associations": {
+    "*.css": "postcss"
+  },
+
   "i18n-ally.sourceLanguage": "en",
   "i18n-ally.keystyle": "nested",
   "i18n-ally.localesPaths": "locales",
   "i18n-ally.sortKeys": true,
-  "prettier.enable": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
+
+  // "prettier.enable": false,
+  // "editor.formatOnSave": false,
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true,
+  // },
+
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "files.associations": {
-    "*.css": "postcss",
+
+  "path-autocomplete.ignoredFilesPattern": "**/*.{js,ts,scss,css}",
+  "path-autocomplete.pathMappings": {
+    "~/": "${folder}/src/"
   },
-  "editor.formatOnSave": false,
+
+  "cSpell.words": ["Vitesse"]
 }
